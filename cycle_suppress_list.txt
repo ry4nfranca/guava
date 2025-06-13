@@ -18,6 +18,8 @@ FIELD com.google.common.util.concurrent.AbstractFuture.Listener.executor com.goo
 
 # ***** FALSE POSITIVES *****
 
+# Alteração
+
 # The Runnable type is so generic that it produces too many false positives.
 TYPE java.lang.Runnable
 
